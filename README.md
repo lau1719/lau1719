@@ -1,16 +1,27 @@
-## Hi there 👋
+<div align="center">
+  <h3>୨୧ ─────── ☁️ ─────── ୨୧</h3>
+</div>
 
-<!--
-**lau1719/lau1719** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<img
+  src="https://github.com/lau1719.png"
+  width="115"
+  align="left"
+  alt="Lau's profile picture"
+/>
 
-Here are some ideas to get you started:
+<h1>
+  hi :D!
+  <br>
+  welcome to my GitHub hihi ♡
+  <br><br>
+  I'm Lau!
+  <br>
+  <sub>IT Student</sub>
+  <br>
+</h1>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br clear="left" />
+
+<div align="center">
+  <h3>✧･ﾟ: *✧･ﾟ:* ୨୧ *:･ﾟ✧*:･ﾟ✧</h3>
+</div>
