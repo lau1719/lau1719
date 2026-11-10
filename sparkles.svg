@@ -1,42 +1,129 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 180"
+     width="1200"
+     height="180">
+
   <defs>
-    <path id="s" d="M0,-10 Q1.5,-1.5 10,0 Q1.5,1.5 0,10 Q-1.5,1.5 -10,0 Q-1.5,-1.5 0,-10Z"/>
-    <linearGradient id="g" x1="0" x2="1">
-      <stop offset="0" stop-color="#FFB7D5"/>
-      <stop offset="0.5" stop-color="#C3A6FF"/>
-      <stop offset="1" stop-color="#A0C4FF"/>
-    </linearGradient>
     <style>
-      .f { animation: fall 5s linear infinite; opacity: 0; }
-      .m { animation-duration: 6.5s; }
-      .l { animation-duration: 8s; }
-      @keyframes fall {
-        0%   { transform: translateY(-20px) rotate(0deg) scale(.6); opacity: 0; }
-        15%  { opacity: 1; }
-        85%  { opacity: 1; }
-        100% { transform: translateY(225px) rotate(180deg) scale(1); opacity: 0; }
+      .fall {
+        animation: falling 7s linear infinite;
+        opacity: 0;
       }
+
+      @keyframes falling {
+        0% {
+          transform: translate(0, -15px);
+          opacity: 0;
+        }
+        15% {
+          opacity: 0.9;
+        }
+        80% {
+          opacity: 0.7;
+        }
+        100% {
+          transform: translate(12px, 200px);
+          opacity: 0;
+        }
+      }
+
+      .slow { animation-duration: 10s; }
+      .fast { animation-duration: 5s; }
     </style>
   </defs>
 
-  <!-- texto central (opcional, puedes borrarlo) -->
-  <text x="400" y="112" text-anchor="middle" font-size="46" font-weight="bold"
-        font-family="'Segoe Script','Brush Script MT','Comic Sans MS',cursive" fill="url(#g)">hi! I'm Lau</text>
+  <!-- Tiny falling sparkles -->
+  <g fill="#FFB7D5">
+    <g transform="translate(35,0)">
+      <circle class="fall fast" r="1.8" style="animation-delay:0s"/>
+    </g>
+    <g transform="translate(145,0)">
+      <circle class="fall slow" r="1.3" style="animation-delay:2s"/>
+    </g>
+    <g transform="translate(260,0)">
+      <circle class="fall" r="2" style="animation-delay:4s"/>
+    </g>
+    <g transform="translate(390,0)">
+      <circle class="fall fast" r="1.2" style="animation-delay:1s"/>
+    </g>
+    <g transform="translate(510,0)">
+      <circle class="fall slow" r="1.7" style="animation-delay:5s"/>
+    </g>
+    <g transform="translate(650,0)">
+      <circle class="fall" r="1.4" style="animation-delay:2.5s"/>
+    </g>
+    <g transform="translate(780,0)">
+      <circle class="fall fast" r="1.8" style="animation-delay:3s"/>
+    </g>
+    <g transform="translate(920,0)">
+      <circle class="fall slow" r="1.2" style="animation-delay:1.5s"/>
+    </g>
+    <g transform="translate(1060,0)">
+      <circle class="fall" r="2" style="animation-delay:4.5s"/>
+    </g>
+    <g transform="translate(1160,0)">
+      <circle class="fall fast" r="1.4" style="animation-delay:0.8s"/>
+    </g>
+  </g>
 
-  <!-- brillitos -->
-  <g transform="translate(50,0) scale(1)"><use href="#s" class="f" fill="#FFB7D5" style="animation-delay:0s"/></g>
-  <g transform="translate(120,0) scale(.7)"><use href="#s" class="f m" fill="#FFFFFF" style="animation-delay:1.8s"/></g>
-  <g transform="translate(190,0) scale(1.2)"><use href="#s" class="f l" fill="#C3A6FF" style="animation-delay:0.6s"/></g>
-  <g transform="translate(260,0) scale(.8)"><use href="#s" class="f" fill="#FFE29A" style="animation-delay:3.1s"/></g>
-  <g transform="translate(330,0) scale(1)"><use href="#s" class="f m" fill="#A0C4FF" style="animation-delay:2.2s"/></g>
-  <g transform="translate(400,0) scale(.6)"><use href="#s" class="f l" fill="#FFB7D5" style="animation-delay:4.4s"/></g>
-  <g transform="translate(470,0) scale(1.1)"><use href="#s" class="f" fill="#B5EAD7" style="animation-delay:1.2s"/></g>
-  <g transform="translate(540,0) scale(.8)"><use href="#s" class="f m" fill="#FFFFFF" style="animation-delay:3.7s"/></g>
-  <g transform="translate(610,0) scale(1.2)"><use href="#s" class="f l" fill="#C3A6FF" style="animation-delay:2.8s"/></g>
-  <g transform="translate(680,0) scale(.7)"><use href="#s" class="f" fill="#FFE29A" style="animation-delay:0.9s"/></g>
-  <g transform="translate(750,0) scale(1)"><use href="#s" class="f m" fill="#FFB7D5" style="animation-delay:4s"/></g>
-  <g transform="translate(90,0) scale(.6)"><use href="#s" class="f l" fill="#A0C4FF" style="animation-delay:5.5s"/></g>
-  <g transform="translate(300,0) scale(.9)"><use href="#s" class="f" fill="#FFFFFF" style="animation-delay:2.5s"/></g>
-  <g transform="translate(510,0) scale(.7)"><use href="#s" class="f m" fill="#C3A6FF" style="animation-delay:5s"/></g>
-  <g transform="translate(720,0) scale(.9)"><use href="#s" class="f l" fill="#B5EAD7" style="animation-delay:1.5s"/></g>
+  <g fill="#C3A6FF">
+    <g transform="translate(90,0)">
+      <circle class="fall slow" r="1.5" style="animation-delay:3s"/>
+    </g>
+    <g transform="translate(210,0)">
+      <circle class="fall fast" r="1.8" style="animation-delay:1s"/>
+    </g>
+    <g transform="translate(340,0)">
+      <circle class="fall" r="1.3" style="animation-delay:5s"/>
+    </g>
+    <g transform="translate(470,0)">
+      <circle class="fall slow" r="2" style="animation-delay:0.5s"/>
+    </g>
+    <g transform="translate(590,0)">
+      <circle class="fall fast" r="1.4" style="animation-delay:3.5s"/>
+    </g>
+    <g transform="translate(720,0)">
+      <circle class="fall" r="1.7" style="animation-delay:2s"/>
+    </g>
+    <g transform="translate(850,0)">
+      <circle class="fall slow" r="1.3" style="animation-delay:4s"/>
+    </g>
+    <g transform="translate(990,0)">
+      <circle class="fall fast" r="1.8" style="animation-delay:1.8s"/>
+    </g>
+    <g transform="translate(1120,0)">
+      <circle class="fall" r="1.4" style="animation-delay:5.5s"/>
+    </g>
+  </g>
+
+  <g fill="#FFFFFF">
+    <g transform="translate(65,0)">
+      <circle class="fall" r="1.2" style="animation-delay:2s"/>
+    </g>
+    <g transform="translate(180,0)">
+      <circle class="fall slow" r="1.8" style="animation-delay:4s"/>
+    </g>
+    <g transform="translate(300,0)">
+      <circle class="fall fast" r="1.3" style="animation-delay:0.5s"/>
+    </g>
+    <g transform="translate(430,0)">
+      <circle class="fall" r="1.7" style="animation-delay:3s"/>
+    </g>
+    <g transform="translate(550,0)">
+      <circle class="fall slow" r="1.2" style="animation-delay:1s"/>
+    </g>
+    <g transform="translate(680,0)">
+      <circle class="fall fast" r="1.8" style="animation-delay:4.5s"/>
+    </g>
+    <g transform="translate(810,0)">
+      <circle class="fall" r="1.3" style="animation-delay:2.5s"/>
+    </g>
+    <g transform="translate(950,0)">
+      <circle class="fall slow" r="1.7" style="animation-delay:5s"/>
+    </g>
+    <g transform="translate(1090,0)">
+      <circle class="fall fast" r="1.2" style="animation-delay:1.5s"/>
+    </g>
+  </g>
 </svg>
