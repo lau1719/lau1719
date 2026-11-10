@@ -2,19 +2,24 @@
 <img src="./sparkles.svg" width="100%" alt="Falling pastel sparkles" />
 
 <!-- PROFILE INTRODUCTION -->
-<p>
+<p align="left">
   <img
     src="https://images.weserv.nl/?url=github.com/lau1719.png&mask=circle"
-    width="135"
+    width="150"
     align="right"
     alt="Lau"
   />
-  <span style="font-size: 1.5em; font-weight: bold;">
-    ✧.* 𝒽𝒾! 𝓌𝑒𝓁𝒸𝑜𝓂𝑒 𝓉𝑜 𝓂𝓎 𝑔𝒾𝓉𝒽𝓊𝒷 :D! 𓆩♡𓆪
+  <span style="font-size: 10em; font-weight: bold;">
+    ✧.* 𝒽𝒾! 𝓌𝑒𝓁𝒸𝑜𝓂𝑒 𝓉𝑜 𝓂𝓎 𝑔𝒾𝓉𝒽𝓊𝑏 :D! 𓆩♡𓆪
   </span>
   <br><br>
-  <b>𝐼'𝓂 𝐿𝒶𝓊</b> ☁️ 𐙚<br>
-  <sub>˚₊‧ ꒰ 𝐼𝒯 𝒮𝓉𝓊𝒹𝑒𝓃𝓉 ꒱ ‧₊˚</sub>
+  <span style="font-size: 1.2em;">
+    <b>𝐼'𝓂 𝐿𝒶𝓊</b> ☁️ 𐙚
+  </span>
+  <br>
+  <span style="font-size: 1.05em;">
+    <sub>˚₊‧ ꒰ 𝐼𝒯 𝒮𝓉𝓊𝒹𝑒𝓃𝓉 ꒱ ‧₊˚</sub>
+  </span>
 </p>
 
 <!-- ANIMATED TEXT -->
