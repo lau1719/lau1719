@@ -1,5 +1,3 @@
-<!-- ✧ LAU'S GITHUB PROFILE ✧ -->
-
 <!-- SPARKLE HEADER -->
 <img src="./sparkles.svg" width="100%" alt="Pink sparkling particles" />
 
