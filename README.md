@@ -1,27 +1,48 @@
+
+<!-- ୨୧ LAU'S GITHUB PROFILE -->
+
 <div align="center">
-  <h3>୨୧ ─────── ☁️ ─────── ୨୧</h3>
-</div>
 
-<img
-  src="https://github.com/lau1719.png"
-  width="115"
-  align="left"
-  alt="Lau's profile picture"
-/>
+  <img
+    src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"
+    width="65%"
+    alt="Pink divider"
+  />
 
-<h1>
-  hi :D!
-  <br>
-  welcome to my GitHub hihi ♡
   <br><br>
-  I'm Lau!
-  <br>
-  <sub>IT Student</sub>
-  <br>
-</h1>
 
-<br clear="left" />
+  <table border="0">
+    <tr>
+      <td align="center" width="180">
+        <img
+          src="https://github.com/lau1719.png"
+          width="150"
+          alt="Lau's profile picture"
+        />
+      </td>
 
-<div align="center">
-  <h3>✧･ﾟ: *✧･ﾟ:* ୨୧ *:･ﾟ✧*:･ﾟ✧</h3>
+      <td align="left">
+        <h1>𝒽𝒾 :D!</h1>
+
+        <h2>welcome to my GitHub hihi ♡</h2>
+
+        <p>I'm Lau! ☁️</p>
+
+        <p>
+          <strong>IT Student</strong>
+        </p>
+      </td>
+    </tr>
+  </table>
+
+  <br>
+
+  <img
+    src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"
+    width="65%"
+    alt="Pink divider"
+  />
+
+  <p>୨୧ ───── ☁️ ───── ୨୧</p>
+
 </div>
