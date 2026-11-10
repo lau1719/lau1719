@@ -1,5 +1,5 @@
 <!-- SPARKLE HEADER -->
-<img src="./sparkles.svg" width="100%" alt="Pink sparkling particles" />
+<img src="./sparkles.svg" width="100%" alt="Falling pastel sparkles" />
 
 <!-- PROFILE INTRODUCTION -->
 <p>
