@@ -20,8 +20,8 @@
 <!-- ANIMATED TEXT -->
 <p align="left">
   <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1500&color=C3A6FF&width=435&lines=%E2%9C%A7+exploring+the+world+of+code;%E2%9C%A7+web+development+%26+little+experiments;%E2%9C%A7+building+little+things+hihi+%E2%99%A1"
-    alt="Typing SVG"
+    src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=2000&color=C3A6FF&width=500&lines=Currently+working+on+new+projects;Always+learning+something+new"
+    alt="Currently working on new projects | Always learning something new"
   />
 </p>
 
@@ -77,26 +77,5 @@
 ![Linux](https://img.shields.io/badge/LINUX-FFE29A?style=for-the-badge&logo=linux&logoColor=333333)
 
 <br clear="right"/>
-
-<!-- GITHUB STATS -->
-<h3 align="center">
-  ˚₊‧꒰ა 𝓂𝓎 𝓈𝓉𝒶𝓉𝓈 ໒꒱‧₊˚
-</h3>
-
-<p align="center">
-  <img
-    src="https://github-readme-stats.vercel.app/api?username=lau1719&show_icons=true&hide_border=true&bg_color=0&title_color=B39DDB&icon_color=FFB7D5&text_color=9E8FB8"
-    height="150"
-    alt="GitHub statistics"
-  />
-  <img
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=lau1719&layout=compact&hide_border=true&bg_color=0&title_color=B39DDB&text_color=9E8FB8"
-    height="150"
-    alt="Most used languages"
-  />
-</p>
-
-<br>
-
 <!-- SPARKLE FOOTER -->
 <img src="./sparkles.svg" width="100%" alt="Pink sparkling particles" />
